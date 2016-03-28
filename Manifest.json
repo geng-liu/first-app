@@ -1,0 +1,6 @@
+{
+    "name":"My First App",
+    "description":"First App",
+    "icon":"app-image.jpg",
+    "onclick":"app.js"
+}
