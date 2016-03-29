@@ -1,4 +1,4 @@
 console.log('app.js loaded')
 
-document.body.innerHTML+=' <h2>hello from Geng Liu</h2>'
+document.body.innerHTML+=' Please input <input id="val" size=4 value="20">'
 console.log('hello world')
