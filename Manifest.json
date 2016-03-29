@@ -2,5 +2,5 @@
     "name":"My First App",
     "description":"First App",
     "icon":"app-image.jpg",
-    "onclick":"app.js"
+    "onclick":"https://geng-liu.github.io/first-app/app.js"
 }
