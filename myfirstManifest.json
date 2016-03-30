@@ -1,6 +1,6 @@
 {
     "name":"My First Application",
     "description":"First Application",
-    "icon":"app-image.jpg",
+    "icon":"https://geng-liu.github.io/first-app/app-image.jpg",
     "onclick":"https://geng-liu.github.io/first-app/app.js"
 }
