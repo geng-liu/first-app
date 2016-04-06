@@ -17,6 +17,8 @@ http.get(url, function(res) {
             var response = JSON.parse(body);
                 return response;
         });
+        
+        alert ("here");
     });
     
 /*$.getJSON(url, function (json) {
