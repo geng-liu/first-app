@@ -7,7 +7,7 @@ console.log('app.js loaded')
 //}
 var url = "http://localhost:8500/rest/RestTest/courseService/7659.json";
 
-/*http.get(url, function(res) {
+http.get(url, function(res) {
         var body = '';
         res.on('data', function(chunk) {
             body += chunk;
@@ -18,13 +18,13 @@ var url = "http://localhost:8500/rest/RestTest/courseService/7659.json";
                 return response;
         });
     });
-*/
-$.getJSON(url, function (json) {
+    
+/*$.getJSON(url, function (json) {
 
   document.body.innerHTML = json.columns[0].FACID;
   alert(json.count);
     
-})
+})*/
 //var json_obj = JSON.parse("");
 
 
