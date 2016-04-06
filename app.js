@@ -25,7 +25,7 @@ $.getJSON(url, function (json) {
   alert(json.count);
     
 })
-var json_obj = JSON.parse("");
+//var json_obj = JSON.parse("");
 
 
 
