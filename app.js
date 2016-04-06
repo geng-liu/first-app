@@ -5,10 +5,28 @@ console.log('app.js loaded')
 //field1.onkeyup=function(evt){
 //  document.body.innerHTML += "\n You have input " + field1.value
 //}
+var url = "http://localhost:8500/rest/RestTest/courseService/7659.json";
 
-var json_obj = JSON.parse("http://localhost:8500/rest/RestTest/courseService/7659.json");
+/*http.get(url, function(res) {
+        var body = '';
+        res.on('data', function(chunk) {
+            body += chunk;
+        });
 
-document.body.innerHTML = json_obj.columns[0].FACID;
-alert(json_obj.count);
+        res.on('end', function() {
+            var response = JSON.parse(body);
+                return response;
+        });
+    });
+*/  
+$.getJSON(url, function (json) {
+
+  document.body.innerHTML = json.columns[0].FACID;
+  alert(json.count);
+    
+})
+var json_obj = JSON.parse("");
+
+
 
 console.log('hello world')
