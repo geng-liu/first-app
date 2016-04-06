@@ -18,7 +18,7 @@ var url = "http://localhost:8500/rest/RestTest/courseService/7659.json";
                 return response;
         });
     });
-*/  
+*/
 $.getJSON(url, function (json) {
 
   document.body.innerHTML = json.columns[0].FACID;
